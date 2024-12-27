@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: lightgreen;
+}
+/* Coding for homepage */
+h1{
+    text-align: center;
+    position: relative;
+    top: 400px;
+    color: darkred;
+    font-size: 50px;
+}
+p{
+    font-size: 30px;
+    position: relative;
+    top: 450px;
+    left: 630px;
+}
+.bt1,button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: brown;
+    position: relative;
+    top: 500px;
+    left: 690px;
+}
+a{
+    color: rgb(7, 106, 37);
+}
+button:hover{
+    box-shadow: 2px 2px 8px 5px darkgoldenrod;
+    background-color: lightsalmon;
+}
